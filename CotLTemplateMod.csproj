@@ -4,7 +4,7 @@
         <AssemblyName>CotLTemplateMod</AssemblyName>
         <AssemblyVersion>1.0.0</AssemblyVersion>
         <ReleaseVersion>1.0.0</ReleaseVersion>
-        <TargetFramework>netstandard2.0</TargetFramework>
+        <TargetFramework>netstandard2.1</TargetFramework>
         <LangVersion>latest</LangVersion>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <DebugType>full</DebugType>
@@ -27,6 +27,15 @@
     <ItemGroup>
         <PackageReference Include="CultOfTheLamb.GameLibs" Version="*-*" />
         <PackageReference Include="COTL_API" Version="*" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="CultTweaker">
+        <HintPath>..\..\libs\CultTweaker.dll</HintPath>
+      </Reference>
+      <Reference Include="Unity.2D.SpriteShape.Runtime">
+        <HintPath>..\..\libs\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 </Project>

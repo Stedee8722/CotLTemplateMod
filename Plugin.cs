@@ -9,6 +9,7 @@ namespace CotLTemplateMod
 {
     [BepInPlugin(PluginGuid, PluginName, PluginVer)]
     [BepInDependency("io.github.xhayper.COTL_API")]
+    [BepInDependency("InfernoDragon0.cotl.CustomSpineLoader")]
     [HarmonyPatch]
     public class Plugin : BaseUnityPlugin
     {
